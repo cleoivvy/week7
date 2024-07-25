@@ -10,7 +10,7 @@ const loo = document.querySelector('ol>:nth-of-type(1)')
 loo.textContent ='Annabel'
  
 // querySelector to target the 9th li
-const leap = document.querySelector('ol>:nth-of-type(9)')
+const leap = document.querySelector('ol>:nth-of-type(8)+li')
 leap.textContent ='forever'
 
 // applying background color and content to the 10th li
