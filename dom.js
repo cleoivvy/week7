@@ -9,7 +9,7 @@ cla.textContent = 'sandra'
 const loo = document.querySelector('ol>:nth-of-type(1)')
 loo.textContent ='Annabel'
  
-// querySelector to target the 9th li
+// querySelector to target the 9th li with respect to the 8th li
 const leap = document.querySelector('ol>:nth-of-type(8)+li')
 leap.textContent ='forever'
 
